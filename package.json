@@ -1,0 +1,32 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "使用node编写后台接口",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hotnode app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsc202426/myNodeDemo.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "林仕超",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsc202426/myNodeDemo/issues"
+  },
+  "homepage": "https://github.com/lsc202426/myNodeDemo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hotnode": "0.0.8",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  }
+}
